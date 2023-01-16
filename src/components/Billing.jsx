@@ -16,7 +16,16 @@ const Billing = () => {
           Elit elim sed masa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. fisce ipsum orci rhnocus aliporttitor integer platea placerat
         </p>
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
-          <img src={apple} alt="play" className='w-[128px]' />
+          <img 
+            src={apple} 
+            alt="store" 
+            className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer' 
+          />
+          <img 
+            src={google} 
+            alt="play" 
+            className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer' 
+          />
         </div>
       </div>
     </section>
